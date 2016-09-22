@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16.08.2016, 18:01:59
+    Author     : orionla2
+*/
+.ellipsis{
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#about text{
+    font-weight: bold;
+    color:#cbc750;
+}
+#logo{
+    float: left;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 330px;
+    
+    color: #969547;
+    
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+}
+#slogan{
+    float: left;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top:15px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+}
+.inlineRow{
+    display: inline-block;
+    float: left;
+}
+.createProductForm table{
+    //border:1px solid white !important; 
+    width: 600px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+
+.createProductForm th,td{
+    padding: 0px; /* Поля вокруг содержимого таблицы */
+    //border: 1px solid white !important; /* Параметры рамки */
+    vertical-align: top;
+    float: left;
+}
+
+.createProductForm th{
+    background: #b0e0e6; /* Цвет фона */
+}
+.itemBg{
+    border: 2px #cbc750 dashed;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 4px;
+    margin: 2px;
+    border-radius: 7px;
+    padding-right: 4px;
+    background-color: #2c2b26;
+}
+
+.productSlider {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-left: 1px solid #212120;
+    border-right: 1px solid #212120;
+    float: left;
+    margin-right: 16px;
+}
+.productSlider-wrapper-tape {
+    width: 1200px;
+    position: relative;
+    display: flex;
+    align-items: center;    
+}
+.productSlider-wrapper-tape-image {
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    cursor:pointer;
+}
+.productSlider-wrapper-tape-image img {
+    width: 100%;
+    height: 100%;
+}
+.productFullInfo table{
+    border:0px solid white !important;
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+
+.productFullInfo th,td{
+    border: 0px solid white; /* Параметры рамки */
+    vertical-align: top;
+    float: left;
+}
+.productFullInfo ul{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.price{
+    color:#900;
+    font-size: 2em;
+    float: right;
+}
+.floatRight{
+    float:right;
+}
+.ui-widget-content {
+    border: 1px solid transparent !important;
+    background: #171716 !important;
+}
+.ui-widget-content a{
+    display:block;
+    width:180px;
+    
+}
+.ui-menu-item{
+    padding: 0 0 3px 10px !important;
+}
+.ui-menu{
+    width:185px;
+}
+.ui-slider-range{
+    height: 40% !important;
+}

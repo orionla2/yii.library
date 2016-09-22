@@ -1,2 +1,0 @@
-# yii.library
-yii library
